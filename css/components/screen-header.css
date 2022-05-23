@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;   
     background-color: #f9f9fa;
-    padding:25px;
+    padding:var(--horizontal-space);
     align-items: center;
 }
 .screen-header__title {
@@ -10,4 +10,8 @@
 }
 .screen-header__icons span {
     margin-left: 25px;
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
 }

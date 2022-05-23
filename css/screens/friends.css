@@ -3,8 +3,25 @@
     display: block;
     background-color: #fafafa;
     padding: 15px 0px;
+    margin-bottom: 5px;
+    font-size: 18px;
 }
 
 #friends-display-link i {
     color: rgba(0,0,0,0.3);
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
+}
+.friends-screen__favorite {
+    margin-top: 25px;
+    border-top: 1px solid rgba(0,0,0,0.4);
+    padding-top: 15px;
+}
+.friends-screen__favorite-header {
+    display: flex;
+    justify-content: space-between;
+    font-size:16px;
+    color: rgba(0,0,0,0.4);
 }
